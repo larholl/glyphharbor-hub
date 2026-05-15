@@ -57,11 +57,16 @@ a:hover { color: var(--blue-deep); text-decoration: underline; }
 }
 .wordmark {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.03em;
-  color: var(--ink);
+  color: var(--slate);
+}
+.wordmark strong {
+  font-weight: 800;
+  color: var(--blue-deep);
 }
 .wordmark:hover { color: var(--blue-deep); text-decoration: none; }
+.wordmark:hover strong { color: var(--blue); }
 
 .anchors {
   display: flex;
